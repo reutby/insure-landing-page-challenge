@@ -1,0 +1,145 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+#navbar {
+  background-color: #fff;
+  padding-right: 10%;
+  z-index: 3;
+}
+
+/* navbar style */
+.nav-link-style {
+  font-weight: bolder;
+  color: hsl(270, 9%, 17%);
+}
+
+.nav-link-style:hover {
+  color: hsl(270, 9%, 17%);
+  font-weight: bold;
+}
+
+.navbar-brand-style {
+  padding-left: 11%;
+  font-weight: bold;
+  color: hsl(270, 9%, 17%);
+}
+
+.navbar-brand-style:hover {
+  color: hsl(270, 9%, 17%);
+  font-style: :italic;
+}
+
+.nav-btn-style {
+  border-radius: 0%;
+}
+
+.nav-btn-style:hover {
+  color: #fff;
+  background-color: hsl(270, 9%, 17%);
+}
+
+/* title section */
+#title {
+  background-color: hsl(270, 9%, 17%);
+  padding: 3% 10% 5% 10%;
+  position: relative;
+  z-index: -3;
+}
+
+.intro-pattern1 {
+  position: absolute;
+  right: 0;
+  top: -1.5rem;
+  z-index: -1;
+}
+
+.intro-pic {
+  position: absolute;
+  z-index: 0;
+  right: 10rem;
+  top: 10rem;
+}
+
+.hr-style {
+  border-color: #bbbfca;
+  border: solid hidden hidden;
+  border-width: 3px;
+  position: relative;
+}
+
+.pattern2 {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.plans-button {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-weight: 700;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: relative;
+  z-index: 5;
+}
+
+.plans-button:hover{
+  color: hsl(270, 9%, 17%);
+  background-color: #fff;
+}
+.big-heading {
+  padding-top: 3rem;
+  font-size: 6rem;
+  color: #fff;
+  font-family: 'DM Serif Display', serif;
+}
+
+
+
+.content {
+  font-size: 1.2rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  color: #2C2640;
+}
+
+@media (max-width:1024px) {
+  .intro-pic {
+    position: static;
+    width: 100%;
+  }
+
+  .intro-pic-container {
+    padding: 0 0;
+  }
+
+  .hr-style {
+    visibility: hidden;
+  }
+
+  .big-heading {
+    font-size: 3.7rem;
+  }
+
+  #title .container-fluid {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+  .pattern2{
+    visibility: visible;
+    width: 45%;
+  }
+}
