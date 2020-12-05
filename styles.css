@@ -15,7 +15,8 @@ body {
   z-index: -1;
   right: 10rem;
   top: 10rem;
-  width: 35%;
+  width:600px;
+  height:710px;
 }
 
 .big-heading {
@@ -212,6 +213,7 @@ body {
 }
 .bg-pattern-mobile-nav {
   visibility: hidden;
+  position: absolute;
 }
 .footer-menu {
   color: hsl(270, 9%, 17%);
@@ -234,6 +236,9 @@ body {
   padding-right: 5rem;
 }
 
+.btn {
+  border-radius: 0;
+}
 @media (max-width:1000px) {
   .intro-pic {
     position: static;
@@ -242,6 +247,7 @@ body {
 
   .navbar-light .navbar-nav .nav-link {
     color: white;
+    font-size: 2rem;
   }
 
   .pattern-how-we-work {
@@ -320,13 +326,12 @@ body {
   .plan-button-mobile {
     border-color: white;
     color: white;
-    padding: 0.5rem 4rem 1rem 4rem;
+    padding: 0.5rem 7rem 1rem 7rem;
     margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
-  .btn {
-    border-radius: 0;
-  }
+
 
 
 }
