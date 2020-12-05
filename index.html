@@ -8,6 +8,9 @@
   <!-- bootstrap library -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+  <!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   <!-- google fonts link -->
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
@@ -27,32 +30,36 @@
 
   <img class="intro-pattern1" src="images/bg-pattern-intro-right-desktop.svg" alt="">
   <section id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand color-me navbar-brand-style" href="">INSURE</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link nav-link-style" href="">How we work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-style" href="">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-style" href="">Account</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-outline-dark"> View plans</button>
-          </li>
+    <div class="pos-f-t">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand color-me navbar-brand-style" href="">INSURE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        </ul>
-      </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link-style" href="">How we work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-style" href="">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-style" href="">Account</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn plan-button-mobile btn-outline-dark"> View plans</button>
+            </li>
 
-    </nav>
+          </ul>
+          <img src="images/bg-pattern-mobile-nav.svg" class="bg-pattern-mobile-nav" alt="bg-pattern-mobile-nav">
+        </div>
+
+      </nav>
 
     </div>
+
   </section>
   <div class="intro-pic-container">
     <img class="intro-pic" src="images/image-intro-desktop.jpg" alt="intro-picture">
@@ -89,7 +96,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-2">
-          <hr class="hr-style">
+          <hr class="hr-style hr-style-feature">
         </div>
       </div>
       <div class="row">
@@ -139,110 +146,82 @@
   </section>
   <!-- call to action -->
 
-<section id="cta">
-  <div class="social-media">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6">
-          <h2 class="navbar-brand color-me brand-style">INSURE</h2>
-        </div>
-        <div class="col-lg-6 social-media-icons">
-          <img src="images/icon-facebook.svg" alt="facebook-icon">
-          <img src="images/icon-twitter.svg" alt="twitter-icon">
-          <img src="images/icon-pinterest.svg" alt="pinterest-icon">
-          <img src="images/icon-instagram.svg" alt="instegram-icon">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  </section>
-  <footer id="footer">
-    <div class="footer-menu">
+  <section id="cta">
+    <img src="images/bg-pattern-footer-desktop.svg" class="pattern-footer pattern-footer-desktop" alt="pattern-footer-desktop">
+    <img src="images/bg-pattern-footer-mobile.svg" class="pattern-footer pattern-footer-mobile" alt="pattern-footer-mobile">
+    <div class="social-media">
       <div class="container-fluid">
-        <div class="row colmn-title">
-          <div class="col-lg-3">
-            <h3> Our company</h3>
-          </div>
-          <div class="col-lg-3">
-            <h3> Help me</h3>
-          </div>
-          <div class="col-lg-3">
-            <h3> Contact</h3>
-          </div>
-          <div class="col-lg-3">
-            <h3>Others</h3>
-
-          </div>
-        </div>
         <div class="row">
-          <div class="col-lg-3">
-            <h3>How we work</h3>
-            <h3>Why Insure?</h3>
-            <h3>View plans</h3>
-            <h3>Reviews</h3>
+          <div class="col-lg-6">
+            <h2 class="navbar-brand color-me brand-style">INSURE</h2>
           </div>
-          <div class="col-lg-3">
-
-            <h3>FAQ</h3>
-            <h3>Terms of use</h3>
-            <h3>Privacy policy</h3>
-            <h3>Cookies</h3>
-          </div>
-          <div class="col-lg-3">
-            <h3>Sales</h3>
-            <h3>Support</h3>
-            <h3>Live chat</h3>
-
-          </div>
-          <div class="col-lg-3">
-            <h3>Careers</h3>
-            <h3>Press</h3>
-            <h3>Licenses</h3>
-
+          <div class="col-lg-6 social-media-icons">
+            <img src="images/icon-facebook.svg" alt="facebook-icon">
+            <img src="images/icon-twitter.svg" alt="twitter-icon">
+            <img src="images/icon-pinterest.svg" alt="pinterest-icon">
+            <img src="images/icon-instagram.svg" alt="instegram-icon">
           </div>
         </div>
       </div>
-
     </div>
-  </footer>
+    </div>
+  </section>
 
 
+</body>
+<footer id="footer">
 
+  <div class="footer-menu">
+    <div class="container-fluid">
+      <div class="row colmn-title">
+        <div class="col-lg-3">
+          <h3> Our company</h3>
+        </div>
+        <div class="col-lg-3">
+          <h3> Help me</h3>
+        </div>
+        <div class="col-lg-3">
+          <h3> Contact</h3>
+        </div>
+        <div class="col-lg-3">
+          <h3>Others</h3>
 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <h3>How we work</h3>
+          <h3>Why Insure?</h3>
+          <h3>View plans</h3>
+          <h3>Reviews</h3>
+        </div>
+        <div class="col-lg-3">
 
+          <h3>FAQ</h3>
+          <h3>Terms of use</h3>
+          <h3>Privacy policy</h3>
+          <h3>Cookies</h3>
+        </div>
+        <div class="col-lg-3">
+          <h3>Sales</h3>
+          <h3>Support</h3>
+          <h3>Live chat</h3>
 
+        </div>
+        <div class="col-lg-3">
+          <h3>Careers</h3>
+          <h3>Press</h3>
+          <h3>Licenses</h3>
 
+        </div>
+      </div>
+    </div>
 
-  Our company
-
-  How we work
-  Why Insure?
-  View plans
-  Reviews
-
-  Help me
-
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
-
-  Contact
-
-  Sales
-  Support
-  Live chat
-
-  Others
-
-
-
-
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Reut Bar Yaacov</a>.
   </div>
-</body>
+</footer>
 
 </html>
