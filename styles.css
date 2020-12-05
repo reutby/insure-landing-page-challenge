@@ -2,16 +2,56 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+#footer {
+  background-color: #eeeeee;
+  padding: 3% 10% 5% 10%;
+}
+
+#cta {
+  background-color: #eeeeee;
+  padding: 3% 10% 5% 10%;
+}
+
 #navbar {
   background-color: #fff;
   padding-right: 10%;
   z-index: 3;
 }
 
+/* title section */
+#title {
+  background-color: hsl(270, 9%, 17%);
+  padding: 3% 10% 5% 10%;
+  position: relative;
+  z-index: -3;
+}
+
+#features {
+  padding: 15% 10% 5% 10%;
+}
+
 /* navbar style */
 .nav-link-style {
   font-weight: bolder;
   color: hsl(270, 9%, 17%);
+}
+
+.feature-heading {
+  margin-bottom: 5rem;
+}
+
+.black-color {
+  color: black;
+}
+
+.feature-title {
+  font-family: 'DM Serif Display', serif;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.white-color {
+  color: white;
 }
 
 .nav-link-style:hover {
@@ -39,14 +79,6 @@ body {
   background-color: hsl(270, 9%, 17%);
 }
 
-/* title section */
-#title {
-  background-color: hsl(270, 9%, 17%);
-  padding: 3% 10% 5% 10%;
-  position: relative;
-  z-index: -3;
-}
-
 .intro-pattern1 {
   position: absolute;
   right: 0;
@@ -68,41 +100,39 @@ body {
   position: relative;
 }
 
-.pattern2 {
-  visibility: hidden;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
 
-.plans-button {
+.title-plan-button {
   margin-bottom: 3rem;
   margin-top: 3rem;
-  font-weight: 700;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  position: relative;
   z-index: 5;
 }
 
-.plans-button:hover{
+.button-col {
+  padding: 5%;
+}
+
+.plans-button {
+  font-weight: 700;
+  position: relative;
+}
+
+.plans-button:hover {
   color: hsl(270, 9%, 17%);
   background-color: #fff;
 }
+
 .big-heading {
   padding-top: 3rem;
   font-size: 6rem;
-  color: #fff;
   font-family: 'DM Serif Display', serif;
 }
-
-
 
 .content {
   font-size: 1.2rem;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  color: #fff;
 }
 
 .attribution {
@@ -115,10 +145,101 @@ body {
   color: #2C2640;
 }
 
+.how-we-work {
+  background-color: hsl(270, 9%, 17%);
+  padding: 3rem;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.find-out-heading {
+  font-size: 4rem;
+  font-family: 'DM Serif Display', serif;
+}
+
+.feature-icon {
+  padding-top: 5%;
+}
+
+.brand-style {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.social-media-icons {
+  text-align: right;
+}
+
+.social-media {
+  border-bottom: solid 1px #867A88;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+.footer-menu {
+  color: hsl(270, 9%, 17%);
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+}
+
+.colmn-title {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  color: grey;
+}
+
+.col-padding {
+  padding-right: 5rem;
+}
+.bg-pattern-how-we-work-mobile{
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+  width: 200px;
+}
+.pattern-how-we-work {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+.pattern-intro-left-mobile,.pattern-intro-right-mobile {
+  position: absolute;
+  z-index: 0;
+  width: 37%;
+  visibility:hidden;
+}
 @media (max-width:1024px) {
   .intro-pic {
     position: static;
     width: 100%;
+  }
+  .pattern-how-we-work{
+    visibility: hidden;
+
+  }
+.bg-pattern-how-we-work-mobile{
+  visibility: visible;
+}
+.intro-pattern1{
+  visibility: hidden;
+}
+  #features {
+    text-align: center;
+  }
+
+  .footer-menu {
+    text-align: center;
+  }
+
+  .social-media {
+    text-align: center;
+  }
+
+  .social-media-icons {
+    text-align: center;
   }
 
   .intro-pic-container {
@@ -132,14 +253,19 @@ body {
   .big-heading {
     font-size: 3.7rem;
   }
-
-  #title .container-fluid {
-    text-align: center;
-    padding-bottom: 5rem;
+   .pattern-intro-left-mobile{
+    visibility: visible;
+    top: 0;
+    left: 0;
   }
 
-  .pattern2{
+  .pattern-intro-right-mobile {
     visibility: visible;
-    width: 45%;
+    bottom: -40%;
+    right: 0;
+  }
+    #title .container-fluid {
+    text-align: center;
+    padding-bottom: 5rem;
   }
 }
